@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.10
 
 RUN set -x; \
     apk add --no-cache bash zsh curl git openssh-client; \
